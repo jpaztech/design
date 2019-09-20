@@ -9,7 +9,7 @@ hexo theme for jpaztech tech blog
 ```sh
 git clone https://github.com/jpaztech/hexo-theme-jpaztech.gitthemes/jpaztech
 npm i -D hexo-generator-feed
-npm i -D jpazureid/hexo-helper-github-issues hexo-generator-root-tag
+npm i -D jpaztechid/hexo-helper-github-issues hexo-generator-root-tag
 ```
 
 ## hexo config.yml
