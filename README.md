@@ -7,7 +7,7 @@ hexo theme for jpaztech tech blog
 ## Set Up
 
 ```sh
-git clone https://github.com/jpaztech/hexo-theme-jpaztech.gitthemes/jpaztech
+git clone https://github.com/jpaztech/hexo-theme-jpaztech.git themes/jpaztech
 npm i -D hexo-generator-feed
 npm i -D jpaztechid/hexo-helper-github-issues hexo-generator-root-tag
 ```
