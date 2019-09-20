@@ -1,6 +1,6 @@
-# hexo-theme-jpazure
+# hexo-theme-jpaztech
 
-hexo theme for jpazure tech blog
+hexo theme for jpaztech tech blog
 
 > forked from [hexo-theme-landscape](https://github.com/hexojs/hexo-theme-landscape)
 
