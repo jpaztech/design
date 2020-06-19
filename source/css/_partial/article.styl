@@ -63,9 +63,24 @@
     /*color: color-link*/
 
 .article-readmore
-  width: 100%
-  margin: 0 !important
-  text-align: right
+width: 100%
+  margin: 1.6em 0 !important
+  /*text-align: right*/
+
+.article-readmore a
+  display: inline-block
+  line-height: 1em
+  padding: 6px 15px
+  border-radius: 15px
+  background: color-background
+  color: #737373 !important
+  text-shadow: 0 1px #fff
+  text-decoration: none
+  &:hover
+    background: color-link
+    color: #fff !important
+    text-decoration: none !important
+    text-shadow: 0 1px darken(color-link, 20%)
   
 
 .article-entry
@@ -80,8 +95,7 @@
     font-weight: bold
   h1, h2, h3, h4, h5, h6
     line-height: line-height-title
-    margin: 2.2em 0 1.1em 0
-    color: color-h-tag-title
+    margin: line-height-title 0
   a
     color: color-link
     text-decoration: none
@@ -94,7 +108,7 @@
     max-width: 100%
     height: auto
     display: block
-    margin: auto
+    /* margin: auto */ /* [makotsur] delete style 'margin auto = centering style' */
   iframe
     border: none
   table
@@ -221,6 +235,12 @@
     content: "\f044"
     font-family: FontAwesome
     padding-right: 6px
+
+.article-disclaimer
+  font-family: font-serif
+  font-style: italic
+  margin: line-height 20px
+  background-color: #f6f6f6
 
 #article-nav
   clearfix()

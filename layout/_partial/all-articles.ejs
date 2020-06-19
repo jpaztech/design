@@ -1,0 +1,10 @@
+<h2 class='widget-title'>
+  全記事一覧
+</h2>
+<% site.posts.sort('date', -1).each(function(post, i){ %>
+  <section class="all-articles-wrap">
+    <div class="archives">
+    <%- partial('all-articles-post', {post: post, even: i % 2 == 0}) %>
+    </div>
+  </section>
+<%}) %>

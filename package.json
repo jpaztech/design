@@ -1,5 +1,5 @@
 {
-  "name": "hexo-theme-jpaztech",
+  "name": "hexo-theme-jpazure",
   "version": "0.0.2",
   "private": true,
   "devDependencies": {
@@ -7,7 +7,6 @@
     "grunt-contrib-clean": "~2.0.0",
     "grunt-contrib-copy": "~1.0.0",
     "grunt-git": "^1.0.14",
-    "hexo-generator-feed": "^2.0.0",
     "load-grunt-tasks": "~3.5.2"
   }
 }
