@@ -30,7 +30,7 @@
       <% } else { %>
         <%- post.content %>
       <% } %>
-      <% if (post.disableDisclaimer && config.disclaimer){ %>
+      <% if (!post.disableDisclaimer && config.disclaimer){ %>
       <div class="article-disclaimer">
           <p><%- config.disclaimer%></p>
       </div>

@@ -27,7 +27,7 @@
       <% } else { %>
         <%- post.content.replace(/<(".*?"|'.*?'|[^'"])*?>/g, "").substr(0, 400) + "..."%>
         <p class="article-readmore">
-          <a href="<%- url_for(post.path) %>">Read More</a>
+          <a href="<%- url_for(post.path) %>">Read more</a>
         </p>
       <% } %>
     </div>

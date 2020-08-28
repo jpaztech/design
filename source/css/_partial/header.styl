@@ -1,5 +1,5 @@
 #header
-  height: banner-height
+  height: header-height
   position: relative
   border-bottom: 1px solid color-border
   &:before, &:after
@@ -94,6 +94,13 @@ $nav-link
     opacity: 1
     color: color-link 
 
+#ms-logo
+  width: ms-logo-width
+  height: ms-logo-height
+  float: left
+  background: url(ms-logo-url) center #fff
+  background-size: cover
+
 .nav-icon
   @extend $nav-link
   font-family: font-icon
@@ -101,7 +108,7 @@ $nav-link
   font-size: font-size
   width: font-size
   height: font-size
-  padding: 18px 15px /*edited*/
+  padding: 20px 15px
   position: relative
   cursor: pointer
 
@@ -156,8 +163,7 @@ $nav-link
   background: #fff
   padding: 2px 15px
   border-radius: 15px
-  border: 1px #737373 solid 
-  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 
 .search-form-input
   border: none
@@ -172,7 +178,7 @@ $nav-link
 
 .search-form-submit
   position: absolute
-  top: 40% /*edited*/
+  top: 50%
   right: 10px
   margin-top: -7px
   font: 13px font-icon
